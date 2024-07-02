@@ -7,10 +7,21 @@ import Contact from '../pages/Contact'
 import Doctors from '../pages/Doctors/Doctors'
 import DoctorDetails from '../pages/Doctors/DoctorDetails'
 
+import {Routes, Route} from 'react-router-dom'
+
 const Routers = () => {
   return (
-    <div>Routers</div>
-  )
+    <Routes>
+      <Route path="/" element={<Home />} />
+      <Route path="/home" element={<Home />} />
+      <Route path="/doctors" element={<Doctors />} />
+      <Route path="/doctors/:id" element={<DoctorDetails />} />
+      <Route path="/login" element={<Login />} />
+      <Route path="/register" element={<Signup />} />
+      <Route path="/contact" element={<Contact />} />
+      <Route path="/services" element={<Services />} />
+    </Routes>
+  );
 }
 
 export default Routers
