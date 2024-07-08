@@ -1,6 +1,8 @@
-import { useEffect, useRef } from 'react'
-import logo from "../../assets/images/LogoEmpresaKarla.png"
-import { NavLink, Link } from "react-router-dom"
+import { useEffect, useRef } from 'react';
+import logo from "../../assets/images/LogoEmpresaKarla.png";
+import userImg from "../../assets/images/avatar-icon.png";
+import { NavLink, Link } from "react-router-dom";
+import { BiMenu } from "react-icons/bi";
 
 //Navegacion
 const navLinks = [
@@ -50,6 +52,32 @@ const Header = () => {
               ))}
             </ul>
           </div>
+
+          {/* === nav === */}
+          <div className='flex  items-center gap-4'>
+
+            <div>
+              <Link to='/'>
+              <figure className='w-[35px] h-[35px] rounded-full cursor-pointer'>
+                <img src={userImg} className='w-full rounded-full' alt="" />
+              </figure>
+              </Link>
+            </div>
+
+            <Link to='/login'>
+              <button className='bg-primaryColor py-2 px-6 text-white font-[600] h-[44px] flex items-center justify-center rounded-[50px]'>
+                Acceso
+              </button>
+            </Link>
+
+            <span>
+              <BiMenu className='w-6 h-6 cursor-pointer'/>
+            </span>
+
+          </div>
+
+
+
         </div>
       </div>
     </header>
