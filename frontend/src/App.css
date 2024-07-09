@@ -32,3 +32,11 @@ body {
     background: #00000084;
   }
 }
+
+.menu {
+  width: 15rem;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
