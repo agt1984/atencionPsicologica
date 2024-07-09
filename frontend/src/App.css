@@ -39,4 +39,10 @@ body {
   position: absolute;
   top: 0;
   right: 0;
+  background: #fff;
+  z-index: 200;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  line-height: 30px;
 }
