@@ -76,12 +76,12 @@ const Header = () => {
           </div>
 
           {/* === nav === */}
-          <div className='flex  items-center gap-4'>
+          <div className='flex items-center gap-4'>
             <div className='hidden'>
               <Link to='/'>
-              <figure className='w-[35px] h-[35px] rounded-full cursor-pointer'>
-                <img src={userImg} className='w-full rounded-full' alt="" />
-              </figure>
+                <figure className='w-[35px] h-[35px] rounded-full cursor-pointer'>
+                  <img src={userImg} className='w-full rounded-full' alt="" />
+                </figure>
               </Link>
             </div>
 
