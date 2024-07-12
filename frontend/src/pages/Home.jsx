@@ -12,7 +12,7 @@ const Home = () => {
               <div>
                 <div className="lg:w-[570px]">
                   <h1 className="text-[36px] leading-[46px] text-headingColor font-[800] md:text-[60px] md:leading-[70px]">
-                    Tú salud, tú bienestar, siempre en línea.
+                    Tu salud, tu bienestar, siempre en línea.
                   </h1>
                 </div>
               </div>
