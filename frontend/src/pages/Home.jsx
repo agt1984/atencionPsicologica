@@ -1,6 +1,5 @@
 import React from 'react';
 
-
 //imagenes que deben cambiarse pero con la misma nomenclatura
 import heroImg01 from '../assets/images/hero-img01.png'; //Buscar una foto de Karla o de algun otro propfesional
 import heroImg02 from "../assets/images/hero-img02.png"; //Buscar una foto de Karla o de algun otro propfesional
