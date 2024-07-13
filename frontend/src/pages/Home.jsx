@@ -1,5 +1,7 @@
 import React from 'react'
 
+import heroImg01 from '../assets/images/hero-img01.png'; //Buscar una foto de Karla o de algun otro propfesional
+
 const Home = () => {
   return (
     <>
@@ -7,7 +9,7 @@ const Home = () => {
       <>
         <section className="hero__section pt_[60px] 2xl:h-[800px]">
           <div className="container">
-            <div className="flex flex-col lg:flex-row gap-[90px] items-center justify-between">
+            <div className="flex flex-col lg:flex-row gap-[90px] items-start justify-evenly">
               {/* === hero content === */}
               <div>
                 <div className="lg:w-[570px]">
@@ -36,22 +38,13 @@ const Home = () => {
                     <span className="w-[100px] h-2 bg-yellowColor rounded-full block mt-[-14px]"></span>
                     <p className="text__para">Años ayudando a personas</p>
                   </div>
+                </div>
+              </div>
+              {/* === hero content === */}
 
-                  <div>
-                    <h2 className="text-[36px] leading-[56px] lg:text-[44px] lg:leading-[54px] font-[700] text-headingColor">
-                      +15
-                    </h2>
-                    <span className="w-[100px] h-2 bg-yellowColor rounded-full block mt-[-14px]"></span>
-                    <p className="text__para">Años ayudando a personas</p>
-                  </div>
-
-                  <div>
-                    <h2 className="text-[36px] leading-[56px] lg:text-[44px] lg:leading-[54px] font-[700] text-headingColor">
-                      +15
-                    </h2>
-                    <span className="w-[100px] h-2 bg-yellowColor rounded-full block mt-[-14px]"></span>
-                    <p className="text__para">Años ayudando a personas</p>
-                  </div>
+              <div className="flex">
+                <div>
+                  <img className="w-full" src={heroImg01} alt="" />
                 </div>
               </div>
             </div>
