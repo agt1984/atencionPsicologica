@@ -1,6 +1,10 @@
 import React from 'react'
 
+//imagenes que deben cambiarse pero con la misma nomenclatura
 import heroImg01 from '../assets/images/hero-img01.png'; //Buscar una foto de Karla o de algun otro propfesional
+import heroImg02 from "../assets/images/hero-img02.png"; //Buscar una foto de Karla o de algun otro propfesional
+import heroImg03 from "../assets/images/hero-img03.png"; //Buscar una foto de Karla o de algun otro propfesional
+
 
 const Home = () => {
   return (
@@ -42,9 +46,13 @@ const Home = () => {
               </div>
               {/* === hero content === */}
 
-              <div className="flex">
+              <div className="flex gap-[30px] justify-end">
                 <div>
                   <img className="w-full" src={heroImg01} alt="" />
+                </div>
+                <div>
+                  <img src={heroImg02} alt="" className="w-full mb-[30px]" />
+                  <img src={heroImg03} alt="" className="w-full" />
                 </div>
               </div>
             </div>
