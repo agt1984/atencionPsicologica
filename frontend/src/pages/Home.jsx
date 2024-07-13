@@ -10,10 +10,10 @@ const Home = () => {
   return (
     <>
       {/* === hero section === */}
-      <>
+
         <section className="hero__section pt_[60px] 2xl:h-[800px]">
           <div className="container">
-            <div className="flex flex-col lg:flex-row gap-[90px] items-start justify-evenly">
+            <div className="flex flex-col lg:flex-row gap-[90px] items-start justify-between">
               {/* === hero content === */}
               <div>
                 <div className="lg:w-[570px]">
@@ -23,11 +23,11 @@ const Home = () => {
                   <p className="text__para">
                     Somos un refugio digital para la salud integral,
                     proporcionando un puente confiable entre usuarios y
-                    profesionales de la salud. Con un enfoque en la
-                    accesibilidad, la calidad y la empatía, queremos mejorar la
-                    vida de nuestros usuarios al conectarles con los recursos y
-                    el apoyo que necesitan para un bienestar completo, todo
-                    desde la comodidad de su hogar.
+                    profesionales de la salud. Con un enfoque en la accesibilidad,
+                    la calidad y la empatía, queremos mejorar la vida de nuestros
+                    usuarios al conectarles con los recursos y el apoyo que
+                    necesitan para un bienestar completo, todo desde la comodidad
+                    de su hogar.
                   </p>
 
                   <button className="btn">Reserva tu consulta</button>
@@ -58,7 +58,17 @@ const Home = () => {
             </div>
           </div>
         </section>
-      </>
+        {/* === hero section end === */}
+
+        <section>
+          <div className='container'>
+            <div className='lg:w-[470px] mx-auto'>
+              <h2 className='heading text-center'>
+                Proveemos los mejores servicios de salud Integral
+              </h2>
+            </div>
+          </div>
+        </section>
     </>
   );
 };

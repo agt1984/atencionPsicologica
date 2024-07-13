@@ -52,13 +52,13 @@ const Header = () => {
       <div className="container">
         <div className="flex items-center justify-between">
           {/* === logo === */}
-          <div className='mr-2'>
+          <div className='mr-6'>
             <img src={logo} alt="" />
           </div>
 
           {/* === menu === */}
           <div className="navigation" ref={menuRef} onClick={toggleMenu}>
-            <ul className="menu flex items-center gap-[2.7rem]">
+            <ul className="menu flex items-center text-center gap-[2.7rem]">
               {navLinks.map((link, index) => (
                 <li key={index}>
                   <NavLink to={link.path}
@@ -86,7 +86,7 @@ const Header = () => {
             </div>
 
             <Link to='/login'>
-              <button className='bg-primaryColor py-2 px-6 ml-2 text-white font-[600] h-[44px] flex items-center justify-center rounded-[50px]'>
+              <button className='bg-primaryColor py-2 px-6 ml-6 text-white font-[600] h-[44px] flex items-center justify-center rounded-[50px]'>
                 Acceso
               </button>
             </Link>
