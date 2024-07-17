@@ -69,32 +69,55 @@ const Home = () => {
               Proveemos los mejores servicios de salud Integral
             </h2>
             <p className="text__para text-center">
-              Ofrecemos un acceso directo y confiable a
-              servicios de salud integrales, combinando tecnología y empatía
-              para cuidar de ti donde quiera que estés.
+              Ofrecemos un acceso directo y confiable a servicios de salud
+              integrales, combinando tecnología y empatía para cuidar de ti
+              donde quiera que estés.
             </p>
           </div>
 
-          <div className='flex flex-wrap items-center justify-between flex-col md:flex-row gap-5 lg:gap-[30px] mt-[30px] lg:mt-[55px]'>
-            
-            <div className='py-[30px] p-5 '>
-              <div className='flex items-center justify-center'>
+          <div className="flex flex-wrap items-center justify-between flex-col md:flex-row gap-5 lg:gap-[30px] mt-[30px] lg:mt-[55px]">
+            <div className="py-[30px] p-5 ">
+              <div className="flex items-center justify-center">
                 <img src={icon01} alt="" />
               </div>
 
-              <div className='mt-[30px]'>
-                <h2 className='text-[26px] leading-9 text-headingColor font-[700] text-center'>
+              <div className="mt-[30px]">
+                <h2 className="text-[26px] leading-9 text-headingColor font-[700] text-center">
                   Encuentra a tu Profesional
                 </h2>
-                <p className='text-[16px] leading-7 text-textColor font-[400] mt-4'>
+                <p className="text-[16px] leading-7 text-textColor font-[400] mt-4">
                   Ofrecemos guia por parte de nuestros experimentados expertos.
                 </p>
 
-                <Link to='/doctors' className='w-[44px] h-[44px] rounded-full border border-solid border-[#181A1E] mt-[30px] mx-auto flex items-center justify-center group hover:bg-primaryColor hover:border-none'>
-                  <BsArrowRight className='group-hover:text-white w-6 h-5'/>
+                <Link
+                  to="/doctors"
+                  className="w-[44px] h-[44px] rounded-full border border-solid border-[#181A1E] mt-[30px] mx-auto flex items-center justify-center group hover:bg-primaryColor hover:border-none"
+                >
+                  <BsArrowRight className="group-hover:text-white w-6 h-5" />
                 </Link>
               </div>
+            </div>
 
+            <div className="py-[30px] p-5 ">
+              <div className="flex items-center justify-center">
+                <img src={icon01} alt="" />
+              </div>
+
+              <div className="mt-[30px]">
+                <h2 className="text-[26px] leading-9 text-headingColor font-[700] text-center">
+                  Encuentra a tu Profesional
+                </h2>
+                <p className="text-[16px] leading-7 text-textColor font-[400] mt-4">
+                  Ofrecemos guia por parte de nuestros experimentados expertos.
+                </p>
+
+                <Link
+                  to="/doctors"
+                  className="w-[44px] h-[44px] rounded-full border border-solid border-[#181A1E] mt-[30px] mx-auto flex items-center justify-center group hover:bg-primaryColor hover:border-none"
+                >
+                  <BsArrowRight className="group-hover:text-white w-6 h-5" />
+                </Link>
+              </div>
             </div>
           </div>
         </div>
