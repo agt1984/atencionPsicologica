@@ -1,6 +1,7 @@
 import React from 'react';
 import aboutImg from '../../assets/images/about.png'; //esta es otra imagen de otro feo, esta tal vez hay que cambiarla
 import aboutCardImg from '../../assets/images/about-card.png'; //aqui ocurre lo mismo, debo crearme una card propia
+import { Link } from "react-router-dom"; 
 
 const About = () => {
   return (

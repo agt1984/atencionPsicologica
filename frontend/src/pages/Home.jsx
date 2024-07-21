@@ -79,7 +79,6 @@ const Home = () => {
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 lg:gap-[30px] mt-[30px] lg:mt-[55px]">
-
             <div className="py-[30px] p-5 ">
               <div className="flex items-center justify-center">
                 <img src={icon01} alt="" />
@@ -145,12 +144,24 @@ const Home = () => {
                 </Link>
               </div>
             </div>
-
           </div>
         </div>
       </section>
 
       <About />
+
+      {/* ========= services section ========= */}
+      <section>
+        <div className='container'>
+          <div className='xl:w-[470px] mx-auto'>
+            <h2 className='heading text-center'>Nuestros servicios</h2>
+            <p className='text__para text-center'>
+              Poner un texto adecuado para la promocion. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est aliquid deleniti error ab? Reiciendis error architecto sunt molestiae distinctio natus, dolorum aspernatur repellat, magni, quod omnis alias culpa impedit quos?
+            </p>
+          </div>
+        </div>
+      </section>
+      {/* ========= services section end ========= */}
     </>
   );
 };
