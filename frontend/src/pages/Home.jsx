@@ -10,12 +10,12 @@ import icon03 from "../assets/images/icon03.png";
 import { Link } from 'react-router-dom'; //revisa el link a que pagina manda
 import { BsArrowRight } from "react-icons/bs";
 import About from '../components/About/About';
+import ServiceList from '../components/Services/ServiceList';
 
 const Home = () => {
   return (
     <>
       {/* === hero section === */}
-
       <section className="hero__section pt_[60px] 2xl:h-[800px]">
         <div className="container">
           <div className="flex flex-col lg:flex-row gap-[90px] items-start justify-between">
@@ -63,8 +63,8 @@ const Home = () => {
           </div>
         </div>
       </section>
-      {/* === hero section end === */}
 
+      {/* === hero section end === */}
       <section>
         <div className="container">
           <div className="lg:w-[470px] mx-auto">
@@ -159,8 +159,12 @@ const Home = () => {
               Poner un texto adecuado para la promocion. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est aliquid deleniti error ab? Reiciendis error architecto sunt molestiae distinctio natus, dolorum aspernatur repellat, magni, quod omnis alias culpa impedit quos?
             </p>
           </div>
+
+          <ServiceList/>
+
         </div>
       </section>
+      
       {/* ========= services section end ========= */}
     </>
   );
