@@ -172,20 +172,24 @@ const Home = () => {
 
       {/* ========= feature section ========= */}
       <section>
-        <div className='container'>
-          <div className='flex items-center justify-between flex-col lg:flex-row'>
-
+        <div className="container">
+          <div className="flex items-center justify-between flex-col lg:flex-row">
             {/* ========= feature content ========= */}
-            <div className='xl:w-[670px]'>
-              <h2 className='heading'>
+            <div className="xl:w-[670px]">
+              <h2 className="heading">
                 Get virtual treatment <br /> anytime.
               </h2>
-              <ul className='pl-4'>
-                <li className='text__para'>
+              <ul className="pl-4">
+                <li className="text__para">
                   1. Schedule the apointment directly.
                 </li>
+                <li className="text__para">
+                  2. Search for your physician here, and contact their office
+                </li>
+                <li className="text__para">
+                  3. View our physicians who are accepting patients, use the online scheduling tool to select an appointment time
+                </li>
               </ul>
-
             </div>
           </div>
         </div>
