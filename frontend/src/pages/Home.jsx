@@ -152,20 +152,45 @@ const Home = () => {
 
       {/* ========= services section ========= */}
       <section>
-        <div className='container'>
-          <div className='xl:w-[470px] mx-auto'>
-            <h2 className='heading text-center'>Nuestros servicios</h2>
-            <p className='text__para text-center'>
-              Poner un texto adecuado para la promocion. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est aliquid deleniti error ab? Reiciendis error architecto sunt molestiae distinctio natus, dolorum aspernatur repellat, magni, quod omnis alias culpa impedit quos?
+        <div className="container">
+          <div className="xl:w-[470px] mx-auto">
+            <h2 className="heading text-center">Nuestros servicios</h2>
+            <p className="text__para text-center">
+              Poner un texto adecuado para la promocion. Lorem, ipsum dolor sit
+              amet consectetur adipisicing elit. Est aliquid deleniti error ab?
+              Reiciendis error architecto sunt molestiae distinctio natus,
+              dolorum aspernatur repellat, magni, quod omnis alias culpa impedit
+              quos?
             </p>
           </div>
 
-          <ServiceList/>
-
+          <ServiceList />
         </div>
       </section>
-      
+
       {/* ========= services section end ========= */}
+
+      {/* ========= feature section ========= */}
+      <section>
+        <div className='container'>
+          <div className='flex items-center justify-between flex-col lg:flex-row'>
+
+            {/* ========= feature content ========= */}
+            <div className='xl:w-[670px]'>
+              <h2 className='heading'>
+                Get virtual treatment <br /> anytime.
+              </h2>
+              <ul className='pl-4'>
+                <li className='text__para'>
+                  1. Schedule the apointment directly.
+                </li>
+              </ul>
+
+            </div>
+          </div>
+        </div>
+      </section>
+      {/* ========= feature section end ========= */}
     </>
   );
 };
