@@ -190,7 +190,20 @@ const Home = () => {
                   3. View our physicians who are accepting patients, use the online scheduling tool to select an appointment time
                 </li>
               </ul>
+              <Link to='/'>
+                <button className='btn'>Learn More</button>
+              </Link>
             </div>
+
+          {/* ========= feature img ========= */}
+          <div>
+            <img src={featureImg} className='w-3/4' alt="" />
+          </div>
+
+
+
+
+
           </div>
         </div>
       </section>
