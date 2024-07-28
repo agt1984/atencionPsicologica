@@ -13,6 +13,14 @@ const DoctorCard = ({doctor}) => {
       <h2 className='text-[18px] leading-[30px] lg:text-[26px] lg:leading-9 text-headingColor font-[700] mt-3 lg:mt-5'>
         {name}
       </h2>
+
+      <div className='text-[18px] leading-[30px] lg:text-[26px] lg:leading-9 text-headingColor font-[700] mt-3 lg:mt-5'>
+        <span></span>
+      </div>
+
+
+
+
     </div>
   )
 }
