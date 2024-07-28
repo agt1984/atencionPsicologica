@@ -170,7 +170,6 @@ const Home = () => {
           <ServiceList />
         </div>
       </section>
-
       {/* ========= services section end ========= */}
 
       {/* ========= feature section ========= */}
@@ -235,6 +234,20 @@ const Home = () => {
       </section>
       {/* ========= feature section end ========= */}
       {/* nuestros grandes profesionales */}
+      <section>
+        <div className="container">
+          <div className="xl:w-[470px] mx-auto">
+            <h2 className="heading text-center">Nuestros servicios</h2>
+            <p className="text__para text-center">
+              Poner un texto adecuado para la promocion. Lorem, ipsum dolor sit
+              amet consectetur adipisicing elit. Est aliquid deleniti error ab?
+              Reiciendis error architecto sunt molestiae distinctio natus,
+              dolorum aspernatur repellat, magni, quod omnis alias culpa impedit
+              quos?
+            </p>
+          </div>
+        </div>
+      </section>
       {/* nuestros grandes profesionales */}
     </>
   );
