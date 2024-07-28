@@ -14,6 +14,7 @@ import { Link } from 'react-router-dom'; //revisa el link a que pagina manda
 import { BsArrowRight } from "react-icons/bs";
 import About from '../components/About/About';
 import ServiceList from '../components/Services/ServiceList';
+import DoctorList from '../components/Doctors/DoctorList';
 
 const Home = () => {
   return (
@@ -246,6 +247,8 @@ const Home = () => {
               quos?
             </p>
           </div>
+
+          <DoctorList/>
         </div>
       </section>
       {/* nuestros grandes profesionales */}
