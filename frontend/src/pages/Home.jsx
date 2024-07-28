@@ -237,7 +237,7 @@ const Home = () => {
       <section>
         <div className="container">
           <div className="xl:w-[470px] mx-auto">
-            <h2 className="heading text-center">Nuestros servicios</h2>
+            <h2 className="heading text-center">Nuestros Profesionales</h2>
             <p className="text__para text-center">
               Poner un texto adecuado para la promocion. Lorem, ipsum dolor sit
               amet consectetur adipisicing elit. Est aliquid deleniti error ab?
