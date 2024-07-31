@@ -1,4 +1,7 @@
-import React from 'react'
+import React from "react";
+import starIcon from "../../assets/images/Star.png";
+import { Link } from "react-router-dom";
+import { BsArrowRight } from "react-icons/bs";
 
 const DoctorCard = ({doctor}) => {
   
@@ -14,13 +17,11 @@ const DoctorCard = ({doctor}) => {
         {name}
       </h2>
 
-      <div className='text-[18px] leading-[30px] lg:text-[26px] lg:leading-9 text-headingColor font-[700] mt-3 lg:mt-5'>
-        <span></span>
+      <div className='mt-2 lg:mt-4 flex items-center justify-between'>
+        <span className='bg-[#CCF0F3] text-irisBlueColor py-1 px-2 lg:py-2 lg:px-6 text-[12px] leading-4 lg:text-[16px] lg:leading-7 font-semibold rounded'>
+          {specialization}
+        </span>
       </div>
-
-
-
-
     </div>
   )
 }
