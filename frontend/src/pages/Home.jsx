@@ -8,6 +8,7 @@ import icon01 from '../assets/images/icon01.png';
 import icon02 from "../assets/images/icon02.png";
 import icon03 from "../assets/images/icon03.png";
 import featureImg from "../assets/images/feature-img.png"; //Buscar una foto de Karla o de algun otro propfesional
+import faqImg from "../assets/images/faq-img.png";
 import videoIcon from "../assets/images/video-icon.png";
 import avatarIcon from "../assets/images/avatar-icon.png"
 import { Link } from 'react-router-dom'; //revisa el link a que pagina manda
