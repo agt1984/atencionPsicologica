@@ -69,6 +69,7 @@ const Home = () => {
       </section>
 
       {/* === hero section end === */}
+
       <section>
         <div className="container">
           <div className="lg:w-[470px] mx-auto">
@@ -248,10 +249,13 @@ const Home = () => {
             </p>
           </div>
 
-          <DoctorList/>
+          <DoctorList />
         </div>
       </section>
       {/* nuestros grandes profesionales */}
+
+      {/* ========= faq section ========= */}
+      {/* ========= faq section end ========= */}
     </>
   );
 };
