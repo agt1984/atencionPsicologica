@@ -258,23 +258,26 @@ const Home = () => {
 
       {/* ========= faq section ========= */}
       <section>
-        <div className='container'>
-          <div className='flex justify-between gap-[50px] lg:gap-0'>
-            <div className='w-1/2 hidden md:block'>
+        <div className="container">
+          <div className="flex justify-between gap-[50px] lg:gap-0">
+            <div className="w-1/2 hidden md:block">
               <img src={faqImg} alt="" />
             </div>
 
-            <div className='w-full md:w-1/2'>
-              <h2 className='heading'>
+            <div className="w-full md:w-1/2">
+              <h2 className="heading">
                 Todas las preguntas de nuestros estimados pacientes
               </h2>
-              
-              <FaqList/>
+
+              <FaqList />
             </div>
           </div>
         </div>
       </section>
       {/* ========= faq section end ========= */}
+
+      {/* ========= testimonial ========= */}
+      {/* ========= testimonial end ========= */}
     </>
   );
 };
