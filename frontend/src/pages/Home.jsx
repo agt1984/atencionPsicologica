@@ -277,6 +277,16 @@ const Home = () => {
       {/* ========= faq section end ========= */}
 
       {/* ========= testimonial ========= */}
+      <section>
+        <div className="container">
+        <div className="xl:w-[470] mx-auto">
+          <h2 className='heading text-center'>Nuestros grandes doctores</h2>
+          <p className='text__para text-center'>
+            Atencion de cuidado psicologco para todos
+          </p>
+        </div>
+      </div>
+      </section>
       {/* ========= testimonial end ========= */}
     </>
   );
