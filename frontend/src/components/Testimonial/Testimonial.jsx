@@ -1,12 +1,12 @@
 import React from 'react'
-import {Pagination} from "swiper"
+import { Pagination } from "swiper/modules";
 import {Swiper, SwiperSlide} from "swiper/react"
 import "swiper/css"
 import "swiper/css/pagination"
 import patientAvatar from "../../assets/images/patient-avatar.png"
 import {HiStar} from "react-icons/hi"
 
-function Testimonial() {
+const Testimonial = () => {
   return (
     <div className="mt-[30px] lg:mt-[55px]">
       <Swiper
@@ -43,7 +43,7 @@ function Testimonial() {
         </SwiperSlide>
       </Swiper>
     </div>
-  );
+  )
 }
 
 export default Testimonial
