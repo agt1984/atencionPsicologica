@@ -10,7 +10,7 @@ const Testimonial = () => {
   return (
     <div className="mt-[30px] lg:mt-[55px]">
       <Swiper
-        modules={{ Pagination }}
+        modules={[Pagination]}
         spaceBetween={30}
         slidesPerView={1}
         pagination={{ clickable: true }}
@@ -147,6 +147,6 @@ const Testimonial = () => {
       </Swiper>
     </div>
   );
-}
+};
 
-export default Testimonial
+export default Testimonial;
