@@ -37,13 +37,20 @@ const Testimonial = () => {
                 <h4 className="text-[18px] leading-[30px] font-semibold text-headingColor">
                   Broder con nombre arabe
                 </h4>
+                <div className="flex items-center gap-[2px]">
+                  <HiStar className="text-yellowColor w-[18px] h-5" />
+                  <HiStar className="text-yellowColor w-[18px] h-5" />
+                  <HiStar className="text-yellowColor w-[18px] h-5" />
+                  <HiStar className="text-yellowColor w-[18px] h-5" />
+                  <HiStar className="text-yellowColor w-[18px] h-5" />
+                </div>
               </div>
             </div>
           </div>
         </SwiperSlide>
       </Swiper>
     </div>
-  )
+  );
 }
 
 export default Testimonial
