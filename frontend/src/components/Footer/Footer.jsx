@@ -104,7 +104,11 @@ const Footer = () => {
             </h2>
 
             <ul>
-              {quickLinks01.map((item, index)=> <li key={index} className='mb-4'><Link to={item.path}>{item.display}</Link></li>)}
+              {quickLinks01.map((item, index) => (
+              <li key={index} className='mb-4'>
+                <Link to={item.path}>{item.display}</Link>
+              </li>
+              ))}
             </ul>
           </div>
         </div>
