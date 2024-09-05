@@ -20,6 +20,12 @@ const Doctors = () => {
         </div>
       </div>
     </section>
+
+    <section>
+      <div className="container">
+        
+      </div>
+    </section>
     </>
   )
 }
