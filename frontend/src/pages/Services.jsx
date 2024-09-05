@@ -1,5 +1,8 @@
 import React from 'react'
 
+import {services} from "../assets/data/services"; //atento con esto, habra que modificar esta targeta cuando cambiemos los servicios
+import ServiceCard from '../components/Services/ServiceCard';
+
 const Services = () => {
   return (
     <section>
