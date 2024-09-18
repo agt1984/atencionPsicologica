@@ -1,5 +1,6 @@
 import DoctorCard from "./../../components/Doctors/DoctorCard";
 import {doctors} from "./../../assets/data/doctors";
+import Testimonial from "../../components/Testimonial/Testimonial";
 
 const Doctors = () => {
   return (
@@ -22,13 +23,28 @@ const Doctors = () => {
 
       <section>
         <div className="container">
-          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-5">
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-5">
             {doctors.map((doctor) => (
               <DoctorCard key={doctor.id} doctor={doctor} />
             ))}
           </div>
         </div>
       </section>
+
+      <section>
+        <div className="container">
+          <div className="xl:w-[470] mx-auto">
+            <h2 className="heading text-center">
+              Que dicen nuestros pacientes
+            </h2>
+            <p className="text__para text-center">
+              Atencion de cuidado psicologico para todos
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <Testimonial />
     </>
   );
 }
