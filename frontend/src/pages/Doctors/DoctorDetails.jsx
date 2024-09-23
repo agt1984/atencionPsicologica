@@ -4,12 +4,12 @@ import starIcon from "../../assets/images/Star.png";
 
 const DoctorDetails = () => {
   return (
-    <section className='mb-10'>
+    <section>
       <div className="max-w-[1170px] px-5 mx-auto">
         <div className="grid md:grid-cols-3 gap-[50px]">
           <div className="md:col-span-2">
             <div className="flex items-center gap-5">
-              <figure className='m-w-[200px] max-h-[200px]'>
+              <figure className='max-w-[200px] max-h-[200px]'>
                 <img src={doctorImg} alt="" className='w-full'/>
               </figure>
 
@@ -25,8 +25,18 @@ const DoctorDetails = () => {
                   </span>
                 </div>
 
-                
+                  <p className='text__para text-[14px] leading-6 md:text-[14px] lg:max-w-[390px]'>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere aspernatur, necessitatibus alias.
+                  </p>
+
               </div>
+
+            </div>
+
+            <div className='mt-[50px] border-b border-solid border-[#0066ff34]'>
+              <button className={`py-2 px-5 mr-5 text-[16px] leading-7 text-headingColor font-semibold`}>
+                About
+              </button>
             </div>
           </div>
 
