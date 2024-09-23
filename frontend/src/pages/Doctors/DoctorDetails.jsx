@@ -4,7 +4,7 @@ import starIcon from "../../assets/images/Star.png";
 
 const DoctorDetails = () => {
   return (
-    <section>
+    <section className='mb-10'>
       <div className="max-w-[1170px] px-5 mx-auto">
         <div className="grid md:grid-cols-3 gap-[50px]">
           <div className="md:col-span-2">
@@ -18,9 +18,14 @@ const DoctorDetails = () => {
                 <h3 className='text-headingColor text-[22px] leading-9 mt-3 font-bold'>Colocar Nombre de Doctor</h3>
                 <div className='flex items-center gap-[6px]'>
                   <span className='flex items-center gap-[6px] text-[14px] leading-5 lg:text-[16px] lg:leading-7 font-semibold text-headingColor'>
-                    <img src={starIcon} alt="" />
+                    <img src={starIcon} alt="" /> 4.8
+                  </span>
+                  <span className='text-[14px] leading-5 lg:text-[16px] lg:leading-7 font-[400] text-textColor'>
+                    (272)
                   </span>
                 </div>
+
+                
               </div>
             </div>
           </div>
