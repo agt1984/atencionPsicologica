@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import doctorImg from "../../assets/images/doctor-img02.png"; //atento con esto, mas tarde usaras la direccion para guardar las imagenes personalizadas
 import starIcon from "../../assets/images/Star.png";
+import DoctorAbout from "./DoctorAbout";
+import Feedback from "./Feedback";
 
 const DoctorDetails = () => {
 
@@ -62,7 +64,12 @@ const DoctorDetails = () => {
             </div>
             
             <div className='mt-[50px]'>
-
+                {
+                  tab==='about' && <DoctorAbout/>
+                }
+                {
+                  tab==='feedback' && <Feedback/>
+                }
             </div>
 
           </div>
