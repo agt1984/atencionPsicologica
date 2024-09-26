@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import { formateDate } from '../../utils/formateDate';
 
 const DoctorAbout = () => {
   return (
@@ -40,7 +41,7 @@ const DoctorAbout = () => {
           <li className="flex flex-col sm:flex-row sm:justify-between sm:items-end md:gap-5 mb-[30px]">
             <div>
               <span className="text-irisBlueColor text-[15px] leading-6 font-semibold">
-                23 Junio, 2008
+                {formateDate('12-04-2024')}
               </span>
               <p className="text-[16px] leading-6 font-medium text-textColor">
                 estudio en algo x
